@@ -92,5 +92,3 @@ python evaluate.py
 * Medical imaging research community
 
 
-
-Would you like me to also include a **`requirements.txt`** (with all necessary Python dependencies) and a **sample `train.py`** structure to match this README? It would make your project look more complete.
