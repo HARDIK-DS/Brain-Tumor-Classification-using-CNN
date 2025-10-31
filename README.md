@@ -1,7 +1,3 @@
-Here’s a **professional and detailed README.md** you can use for your **Brain Tumor Classification using CNN** project 👇
-
----
-
 # 🧠 Brain Tumor Classification using CNN
 
 This project uses **Deep Learning** techniques, specifically **Convolutional Neural Networks (CNNs)**, to automatically classify **MRI brain scans** into four categories — **Glioma**, **Meningioma**, **Pituitary**, and **No Tumor**. The model was implemented using **PyTorch** and achieved an impressive **~99% test accuracy** through effective preprocessing, data augmentation, and model optimization.
@@ -43,52 +39,7 @@ The dataset used consists of MRI brain scan images categorized into:
 
 > 📦 Dataset Source: [Brain Tumor MRI Dataset (Kaggle)](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri)
 
-Each image is preprocessed to maintain a consistent size and normalized for optimal CNN performance.
 
----
-
-## ⚙️ Installation
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/your-username/Brain-Tumor-Classification-CNN.git
-cd Brain-Tumor-Classification-CNN
-```
-
-### 2️⃣ Create and Activate Virtual Environment
-
-```bash
-python -m venv venv
-source venv/bin/activate   # For Linux/Mac
-venv\Scripts\activate      # For Windows
-```
-
-### 3️⃣ Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ (Optional) Download Dataset
-
-Place the dataset folders inside a directory named `data/` with subfolders:
-
-```
-data/
-├── train/
-│   ├── glioma/
-│   ├── meningioma/
-│   ├── pituitary/
-│   └── no_tumor/
-└── test/
-    ├── glioma/
-    ├── meningioma/
-    ├── pituitary/
-    └── no_tumor/
-```
-
----
 
 ## 🧠 Model Architecture
 
